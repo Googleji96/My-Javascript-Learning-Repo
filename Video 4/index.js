@@ -42,4 +42,4 @@ console.log(arr[2], arr[0], arr[4]); // this is array index proprety [Aisa  bhi 
 // for (let ctiy of cities) {
 //   console.log(ctiy.toUpperCase());
 // }
- //---------------------------->
+//---------------------------->

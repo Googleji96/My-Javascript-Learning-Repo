@@ -15,13 +15,38 @@ console.log(sum / marks.length);
 //-------------------------------------------------------->
 // Shradha khapra solution is ues forof loop ------------------------------->
 
-let marks = [85, 97, 44, 37, 76, 60];
+// let marks = [85, 97, 44, 37, 76, 60];
 
-let sum = 0;
-for (const val of marks) {
-  sum += val;
+// let sum = 0;
+// for (const val of marks) {
+//   sum += val;
+// }
+
+// let avg = sum / marks.length;
+
+// console.log(`avg marks of the class =${avg}`);
+
+//------------------------------------>
+//Qs.
+
+// My solution -------------- >
+
+// let price = [250, 645, 300, 900, 50];
+
+// for (let val of price) {
+//   offer = val / 10;
+//   val = val - offer;
+//   console.log(val);
+// }
+//-------------- Add index value is -------------->
+
+let price = [250, 645, 300, 900, 50];
+let idx = 0;
+
+for (let val of price) {
+  offer = val / 10;
+  val = val - offer;
+  console.log(idx,":",val);
+  idx++;
 }
-
-let avg = sum / marks.length;
-
-console.log(`avg marks of the class =${avg}`)
+//---------------------------->
