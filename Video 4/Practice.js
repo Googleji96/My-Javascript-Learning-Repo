@@ -38,15 +38,25 @@ console.log(sum / marks.length);
 //   val = val - offer;
 //   console.log(val);
 // }
-//-------------- Add index value is -------------->
+//-------------- Add index value is for loop and (sharadha khaprea)  -------------->
 
-let price = [250, 645, 300, 900, 50];
-let idx = 0;
+// let price = [250, 645, 300, 900, 50];
+// let idx = 0;
 
-for (let val of price) {
-  offer = val / 10;
-  val = val - offer;
-  console.log(idx,":",val);
-  idx++;
-}
+// for (let val of price) {
+//   offer = val / 10;
+//   val = val - offer;
+//   console.log(idx,":",val);
+//   idx++;
+// }
 //---------------------------->
+// ******for loop to solve the qustion  ******************?
+
+// let price = [250, 645, 300, 900, 50];
+
+// for (let i = 0; i < price.length; i++) {
+//   let offer = price[i] / 10;
+//   price[i] -= offer;
+// }
+// console.log(price);
+//--------------------------------------------------------------->
