@@ -45,3 +45,62 @@
 //   print: function () {
 //     console.log("Hello", this.name);
 //   },
+
+//**************************** Map function ************************** */
+
+// let nums = [67, 54, 55, 60];
+
+// nums.map((val) => {
+//   console.log(val * val);
+// });
+
+//--------------------------------/
+// Yeh prosse se Ek new arr create ho jata hai (ya fir clone ho ja tata hai)
+
+// let nums = [67, 54, 55, 60];
+
+// let newArr = nums.map((val) => {
+//   return val * val;
+// });
+// console.log(newArr) //This is new arr
+
+// -------------------------------------------------->
+// ****** Filter function **********/
+// This code use for even and odd value return -------->
+// let arr = [67, 54, 55, 60, 45];
+
+// let evenArr = arr.filter((val) => {
+//   return val % 2 === 0;
+// });
+
+// console.log(evenArr);
+//---------------------------------------------------------->
+// odd ------>
+
+// let arr = [67, 54, 55, 60, 45];
+
+// let evenArr = arr.filter((val) => {
+//   return val % 2 !== 0;
+// });
+// console.log(evenArr);
+
+//------------------------------------>
+//greter thane 3
+
+// let arr = [67, 54, 55, 60, 45];
+
+// let evenArr = arr.filter((val) => {
+//   return val > 3;
+// });
+
+// console.log(evenArr);
+//----------------------------------------------------->
+//****************************Reduce method ***************************/
+// const array1 = [1, 2, 3, 4];
+// //0+1+ 2+ 3+ 4
+// const initialValue = 0;
+// const sumWithInitial = array1.reduce(
+// (accumulator, currentValue) => accumulator + currentValue, initialValue,
+// );
+// console.log(sumWithInitial);
+// Expected output: 10

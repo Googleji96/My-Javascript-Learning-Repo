@@ -43,15 +43,6 @@
 // };
 // nums.forEach(calcSqare) // 67 * 67 , 52 * 52 ,
 
-
-
-
-
-
-
-
-
-
 //---------------------------------------------------------------->
 
 //Qs. Create a function using the "function" keyword that takes a String as an argument
@@ -63,3 +54,40 @@
 //     if (str[i] != "a" && str[i] != "e" &&
 //       str[i] != "i" && str[i] != "o" && str[i
 //       != "u")
+//---------------------------------------------------------------->
+// Qs hame greter than 90 + value retarne kara hi
+
+// let marks = [50, 60, 80, 70, 90, 85, 74, 63];
+
+// let results = marks.filter((marks) => {
+//   return marks > 70;
+// });
+
+// console.log(results);
+// ____________________________________________________________________
+// Qs. Create he tool of your enter number ka sum ---------> 
+
+// let n = prompt("Enter your Marks");
+// let arr = [];
+// for (let i = 1; i < n; i++) {
+//   arr[i - 1] = i;
+// }
+
+// console.log(arr);
+// // sum ------------------------->
+
+// let sum = arr.reduce((res, curr) => {
+//   return res + curr;
+// });
+
+// console.log(sum);
+// // factorial ------------->
+
+// let factorial = arr.reduce((res, curr) => {
+//   return res * curr;
+// });
+
+// console.log(factorial);
+
+//---------------------------------------------------------/
+ 
