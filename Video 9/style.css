@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #548687;
+  text-align: center;
+}
+.contaner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  height: 70vh;
+}
+
+.card {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  border: none;
+  height: 60vmin;
+  width: 60vmin;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 900;
+  padding: 20px;
+}
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  font-size: 8vmin;
+  color: #b0413e;
+  background-color: #ffffc7;
+}
+#reset-btn {
+  margin-top: 30px;
+  padding: 10px 10px;
+  border-radius: 1rem;
+}
+#New-btn {
+  padding: 10px 10px;
+  border-radius: 1rem;
+}
+.msg{
+    font-size: 8vmin;
+    color: #ffffc7;
+    margin-top: 20px;
+    padding: 10px;
+}
+.msg-contaner{
+    height: 30vmin;
+}
+.hide{
+  visibility: hidden;
+}

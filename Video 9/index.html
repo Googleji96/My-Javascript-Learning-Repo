@@ -3,12 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tic-tac-toi</title>
+    <title>Tic-tac-toe</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body
-    style="background-color: lightgreen; display: flex; justify-content: center"
-  >
-    <h1>My first Game Tic Tac Toi</h1>
-    <script src="imain.js"></script>
+  <body>
+    <div class="msg-contaner hide">
+      <p class="msg">Winner</p>
+      <button id="New-btn">New Game</button>
+    </div>
+    <main>
+      <h1>My first Game Tic Tac Toe</h1>
+      <div class="contaner">
+        <div class="card">
+          <button class="box" id="btn"></button>
+          <button class="box" id="btn"></button>
+          <button class="box" id="btn"></button>
+          <button class="box" id="btn"></button>
+          <button class="box" id="btn"></button>
+          <button class="box" id="btn"></button>
+          <button class="box" id="btn"></button>
+          <button class="box" id="btn"></button>
+          <button class="box" id="btn"></button>
+        </div>
+      </div>
+    </main>
+    <button id="reset-btn">Reset button</button>
+    <script src="main.js"></script>
   </body>
 </html>
