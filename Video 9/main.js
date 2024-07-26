@@ -31,7 +31,7 @@ const resetGame = () => {
 };
 
 let showWinner = (winner) => {
-  msg.innerText = `congatulation, Winner is ${winner}`;
+  msg.innerText = `Congatulation, Winner is ${winner}`;
   msgbtn.classList.remove("hide")
   disableBtn();
 };

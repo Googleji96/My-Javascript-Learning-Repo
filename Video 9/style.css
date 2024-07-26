@@ -6,6 +6,15 @@ body {
   background-color: #548687;
   text-align: center;
 }
+marquee{
+  padding-top: 20px;
+  font-size: 50px;
+  font-weight: 900;
+  color: rgb(17, 17, 18);
+  opacity: 10;
+  z-index: 10;
+
+}
 .contaner {
   display: flex;
   justify-content: center;
@@ -45,6 +54,7 @@ h1 {
   border-radius: 1rem;
 }
 #New-btn {
+  margin-top: 35px;
   padding: 10px 10px;
   border-radius: 1rem;
 }
@@ -58,5 +68,5 @@ h1 {
     height: 30vmin;
 }
 .hide{
-  visibility: hidden;
+  display: none;
 }
