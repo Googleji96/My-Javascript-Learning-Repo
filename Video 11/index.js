@@ -7,7 +7,8 @@
 //     grade : 90
 // }
 // console.log(student)
-//___func in objects ----->
+//___use  function  in objects ----->
+
 // const student = {
 //   fullName: "Googleji",
 //   grade: 90,
