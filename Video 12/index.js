@@ -194,19 +194,45 @@
 // }
 // // Hello()  // ab haum isko ek vaiable me bhi store kar sakte hai
 //----------------------------------------------------------------->
-// --- Await ________________________>
+// --- Await _____________________------___>
 
-function api() {
-  return new Promise(() => {
-    console.log("weather data");
-  });
-}
+// function api() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       console.log("weather data");
+//       resolve(200);
+//     }, 2000);
+//   });
+// }
+// // await api() // No Direct use of await
+// async function getWeatherData() {
+//     await api() //1st
+//     await api() //2st
+// }
+// console.log(getWeatherData());
 
-function getData(dataId) {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      console.log("data =", dataId);
-      resolve("success");
-    }, 2000);
-  });
-}
+//--------------------------------->
+// function getData(dataId) {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       console.log("data =", dataId);
+//       resolve("success");
+//     }, 2000);
+//   });
+// }
+// //-------->
+// // // Async Await
+// // async function getAllData() {
+// //     await getData(1)
+// //     await getData(2)
+// //     await getData(3)
+// // }
+// //---------> same but IIFE function use ----->
+// (async function () {
+//   console.log("getting data1....");
+//   await getData(1);
+//   console.log("getting data2....");
+//   await getData(2);
+//   console.log("getting data3...");
+//   await getData(3);
+// })();
